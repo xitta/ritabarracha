@@ -1,0 +1,150 @@
+@import "bootstrap_variables";
+@import "../bootstrap-v4-dev/scss/bootstrap";
+@import "variables";
+$fa-font-path: "../fonts/font-awesome/fonts" !default; // overwrite font-awesome load path
+@import "../fonts/font-awesome/scss/font-awesome.scss";
+
+@include media-breakpoint-down(sm) {
+  html {
+    font-size: 18px;
+  }
+
+  .blockquote-lg {
+    font-size: 2rem !important;
+  }
+}
+
+
+/* BASE */
+
+.top-buffer {
+  margin-top: $buffer-lg;
+}
+
+p {
+  line-height: 1.8;
+}
+
+a {
+  background-color: $brand-info;
+  transition: box-shadow 0.15s ease-out, color 0.15s;
+  box-shadow: white 0 0.85em inset;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+a:hover {
+  box-shadow: white 0 0 inset;
+}
+
+img {
+  border-radius: $border-radius;
+  margin-bottom: 10px;
+}
+
+.btn {
+  transition: 0.1s ease-in-out;
+  font-size: $font-size-sm;
+  margin: 5px;
+}
+
+.navbar-brand {
+  float: none;
+
+  img {
+    margin: auto;
+  }
+}
+
+dt {
+  font-weight: normal;
+}
+
+dd {
+  font-weight: 700;
+}
+
+blockquote {
+  font-family: $font-family-serif;
+  font-style: italic;
+  padding: 0;
+  margin-bottom: $buffer-lg;
+  margin-top: $buffer-lg;
+  text-align: center;
+}
+
+.blockquote-lg {
+  font-size: 3rem;
+  line-height: 1.3;
+  text-align: left;
+  padding: 0;
+}
+
+#skills {
+  background-color: $brand-inverse;
+  padding-bottom: $buffer-lg;
+}
+
+.skills-item {
+  text-align: center;
+  padding: $buffer-lg $buffer-lg 0 $buffer-lg;
+
+  p {
+    color: $inverse-color;
+  }
+
+  small {
+    color: $brand-info;
+    line-height: 1;
+  }
+
+  i {
+    margin-bottom: $buffer-md;
+    color: $inverse-color;
+  }
+}
+
+#action {
+  padding-top: $buffer-xl;
+  padding-bottom: $buffer-xl;
+  text-align: center;
+  background-color: #11355b;
+
+  h1,p {
+    color: $inverse-color;
+  }
+  .btn-secondary:hover {
+    border: 2px dotted darken(#11355b, 15%);
+  }
+}
+
+#likes {
+  font-size: $small-font-size;
+}
+
+ul {
+  padding-left: 21px;
+}
+
+.likes-item {
+  i {
+    color: $brand-danger;
+  }
+}
+
+.reference-description{
+  font-size: $small-font-size;
+}
+
+header {
+  margin-top: $buffer-md;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: $buffer-lg;
+}
+
+hr {
+  border-top: 2px dotted $brand-info;
+}
