@@ -261,14 +261,14 @@ html {
 @-ms-viewport {
   width: device-width; }
 html {
-  font-size: 20px;
+  font-size: 23px;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
 
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #292626;
   background-color: #fff; }
 
@@ -512,7 +512,7 @@ mark,
 .blockquote {
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   border-left: 0rem solid #eceeef; }
 
 .blockquote-footer {
@@ -7275,7 +7275,7 @@ blockquote {
   text-align: center; }
 
 .blockquote-lg {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.3;
   text-align: left;
   padding: 0; }

@@ -18,7 +18,7 @@ $fa-font-path: "../fonts/font-awesome/fonts" !default; // overwrite font-awesome
 /* BASE */
 
 .top-buffer {
-  margin-top: $buffer-lg;
+  margin-top: $buffer-xl;
 }
 
 p {
@@ -74,7 +74,7 @@ blockquote {
 }
 
 .blockquote-lg {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.3;
   text-align: left;
   padding: 0;
@@ -82,7 +82,7 @@ blockquote {
 
 #skills {
   background-color: $brand-inverse;
-  padding-bottom: $buffer-lg;
+  padding-bottom: $buffer-xl;
 }
 
 .skills-item {
@@ -120,6 +120,7 @@ blockquote {
 
 #likes {
   font-size: $small-font-size;
+  padding-bottom: $buffer-xl
 }
 
 ul {
