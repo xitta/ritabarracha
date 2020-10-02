@@ -1,8 +1,6 @@
 @import "bootstrap_variables";
 @import "../bootstrap-v4-dev/scss/bootstrap";
 @import "variables";
-$fa-font-path: "../fonts/font-awesome/fonts" !default; // overwrite font-awesome load path
-@import "../fonts/font-awesome/scss/font-awesome.scss";
 
 @include media-breakpoint-down(sm) {
   html {
@@ -48,14 +46,6 @@ img {
   margin: 5px;
 }
 
-.navbar-brand {
-  float: none;
-
-  img {
-    margin: auto;
-  }
-}
-
 dt {
   font-weight: normal;
 }
@@ -80,44 +70,6 @@ blockquote {
   padding: 0;
 }
 
-#skills {
-  background-color: $brand-inverse;
-  padding-bottom: $buffer-xl;
-}
-
-.skills-item {
-  text-align: center;
-  padding: $buffer-lg $buffer-lg 0 $buffer-lg;
-
-  p {
-    color: $inverse-color;
-  }
-
-  small {
-    color: $brand-info;
-    line-height: 1;
-  }
-
-  i {
-    margin-bottom: $buffer-md;
-    color: $inverse-color;
-  }
-}
-
-#action {
-  padding-top: $buffer-xl;
-  padding-bottom: $buffer-xl;
-  text-align: center;
-  background-color: #11355b;
-
-  h1,p {
-    color: $inverse-color;
-  }
-  .btn-secondary:hover {
-    border: 2px dotted darken(#11355b, 15%);
-  }
-}
-
 #likes {
   font-size: $small-font-size;
   padding-bottom: $buffer-xl
@@ -137,15 +89,11 @@ ul {
   font-size: $small-font-size;
 }
 
-header {
-  margin-top: $buffer-md;
-}
-
 footer {
   text-align: center;
   padding-bottom: $buffer-lg;
 }
 
 hr {
-  border-top: 2px dotted $brand-info;
+  border-top: 2px dotted $gray-dark;
 }
